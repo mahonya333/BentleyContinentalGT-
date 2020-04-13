@@ -1,13 +1,18 @@
 $color-black: #000000;
+$color-bg: #050505;
 $color-white: #ffffff;
-
+$color-white-text: #FDFDFD;
+$color-orange: #D85706;
+$color-placeholder-text: rgba(253, 253, 253, 0.6);
 
 
 
 $fonts-default: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
 "Segoe UI Symbol";
-$Rub-regular: "Rubik", $fonts-default;/* Подключаем по ситуации шрифт с дизайна */
-$roboto-regular: "Roboto", $fonts-default;/* Подключаем по ситуации шрифт с дизайна */
+$Montserrat-Medium: "Montserrat-Medium", $fonts-default;
+$Montserrat-SemiBold: "Montserrat-SemiBold", $fonts-default;
+$Montserrat-Bold: "Montserrat-Bold", $fonts-default;
+
 
 
 

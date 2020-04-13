@@ -1,11 +1,413 @@
 @import "mixins";
 @import "vars";
 @import "global";
-@import "libs";
 @import "fonts";
 
+/*start header*/
 
+.header {
+    min-height: 72.3rem;
+}
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 4rem;
+    min-height: 4.4rem;
+}
+.header-navigation {
+    max-width: 74rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    width: 100%;
+    &__list {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        &-item {
+            white-space: nowrap;
+            text-transform: capitalize;
+        }
+        &-link {
+            letter-spacing: 0.005em;
+            text-transform: capitalize;
+            color: $color-white-text;
+            text-decoration: none;
+        }
+    }
+}
+.header-phone {
+    max-width: 14rem;
+    flex-shrink: 0;
+    &__link {
+        color: $color-white-text;
+        text-decoration: none;
+    }
+}
+.header-content {
+    padding-top: 5.5rem;
+    &__title {
+        font-family: $Montserrat-Bold;
+        margin: 0;
+        max-width: 64.5rem;
+        font-size: 7rem;
+        line-height: 92.34%;
+        letter-spacing: 0.035em;
+        text-transform: capitalize;
+    }
+    &__suptitle {
+        display: block;
+        font-size: 4rem;
+        line-height: 4.9rem;
+        text-transform: capitalize;
+    }
+}
+.header-price {
+    margin: 1.8rem 0 0 0;
+    font-size: 2.8rem;
+    line-height: 3.4rem;
+    letter-spacing: 0.005em;
+}
+.header-reservation {
+    margin-top: 6rem;
+    &__btn {
+        @include button-reset;
+        font-family: $Montserrat-SemiBold;
+        font-size: 2rem;
+        line-height: 2.4rem;
+        color: $color-white-text;
+        max-width: 30rem;
+        width: 100%;
+        min-height: 6rem;
+        border-radius: 0.3rem;
+        background-color: $color-orange;
+        padding: 0.7rem 1.5rem;
+    }
+}
+.header-additionally {
+    margin-top: 9.6rem;
+    display: flex;
+    &__item {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        & + .header-additionally__item {
+            margin-left: 4.6rem;
+        }
+    }
+    &__text {
+        line-height: 2rem;
+        margin-left: 1.5rem;
+        text-transform: capitalize;
+    }
+}
+// header end
+//info start'
+.info {
+    padding-top: 8.8rem;
+    padding-bottom: 12.5rem;
+    &-inner {
+        display: flex;
+        align-items: center;
+    }
+    &-content {
+        max-width: 35rem;
+        width: 100%;
+        margin-left: 13rem;
+        &__text {
+            padding: 0;
+            line-height: 2.1rem;
+        }
+        &__title {
+            margin: 0;
+            font-family: $Montserrat-Bold;
+            font-size: 1.8rem;
+            line-height: 2.4rem;
+            text-transform: capitalize;
+        }
+    }
+}
+//info end
+// characteristics start
+.characteristics {
+    &__title {
+        margin: 0 0 5rem 0;
+        font-family: $Montserrat-Bold;
+        font-size: 3rem;
+        line-height: 3.7rem;
+        text-align: center;
+        letter-spacing: 0.095em;
+    }
+    &__subtitle {
+        font-family: $Montserrat-Medium;
+        font-size: 1.6rem;
+        line-height: 2rem;
+        display: block;
+        letter-spacing: 0;
+    }
+    &-inner {
+        display: flex;
+        align-items: center;
+    }
+    &__img {
+        margin-left: auto;
+    }
+}
+.characteristics-table {
+    max-width: 45rem;
+    width: 100%;
+    &__column {
+        letter-spacing: 0.015em;
+        line-height: 2.4rem;
+    }
+}
+//characteristics end
+/*reviews start */
+.reviews {
+    padding-bottom: 25rem;
+    &__title {
+        margin: 0 0 5rem 0;
+        font-family: $Montserrat-Bold;
+        font-size: 3rem;
+        line-height: 3.7rem;
+        text-align: center;
+        letter-spacing: 0.095em;
+    }
+    &__subtitle {
+        font-family: $Montserrat-Medium;
+        font-size: 1.6rem;
+        line-height: 2rem;
+        display: block;
+        letter-spacing: 0;
+    }
+    &__count-slides{
+        position: absolute;
+    }
+}
+.reviews-slider{
+    &__item{
+        &-inner{
+            display: flex;
+            justify-content: space-between;
+        }
+        &-img{
+            max-width: 65rem;
+            width: 100%;
+        }
+    }
+    &__info{
+        max-width: 34.2rem;
+        width: 100%;
+        margin-left: 2rem;
+        &-name{
+            font-family: $Montserrat-Bold;
+            font-size: 1.8rem;
+            line-height: 130.9%;
+            letter-spacing: 0.005em;
+        }
+        &-location{
 
-
-
-
+        }
+        &-text{
+            line-height: 2.1rem;
+        }
+    }
+}
+/*reviews end */
+//rent start
+.rent {
+    min-height: 51.2rem;
+    padding-top: 7.5rem;
+    padding-bottom: 8.5rem;
+    &__title {
+        margin: 0 0 5rem 0;
+        font-family: $Montserrat-Bold;
+        font-size: 3rem;
+        line-height: 3.7rem;
+        text-align: center;
+        letter-spacing: 0.095em;
+    }
+    &__subtitle {
+        font-family: $Montserrat-Medium;
+        font-size: 1.6rem;
+        line-height: 2rem;
+        display: block;
+        letter-spacing: 0;
+    }
+}
+.rent-items {
+    display: flex;
+    justify-content: space-around;
+}
+.rent-item {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    max-width: 18.2rem;
+    width: 100%;
+    &__img {
+        border-radius: 0.4rem;
+    }
+    &__content {
+        margin-top: 1.7rem;
+    }
+    &__title {
+        margin: 0 0 0.7rem 0;
+        font-family: $Montserrat-Bold;
+        font-size: 1.8rem;
+        line-height: 2.2rem;
+        letter-spacing: 0.015em;
+    }
+    &__text {
+        margin: 0;
+        line-height: 2rem;
+    }
+}
+// rent end
+/*reservation start */
+.reservation {
+    padding-top: 15rem;
+    padding-bottom: 15rem;
+    &__title {
+        margin: 0;
+        font-family: $Montserrat-Bold;
+        font-size: 3rem;
+        line-height: 3.7rem;
+        letter-spacing: 0.095em;
+    }
+    &__subtitle {
+        font-family: $Montserrat-Medium;
+        font-size: 1.6rem;
+        line-height: 2rem;
+        display: block;
+        margin-top: 1.5rem;
+        letter-spacing: 0;
+    }
+    &__img {
+        &-wrapper {
+            max-width: 45.9rem;
+            width: 100%;
+            background: radial-gradient(
+                49.82% 49.82% at 50% 50.18%,
+                rgba(114, 110, 110, 0.79) 0%,
+                rgba(51, 51, 51, 0) 100%
+            );
+        }
+    }
+}
+.reservation-inner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.reservation-content {
+    margin-left: 5rem;
+    max-width: 31rem;
+    width: 100%;
+}
+.reservation-form {
+    &__input {
+        width: 100%;
+        margin-top: 3.2rem;
+        padding: 1rem 1rem 1rem 0;
+        background-color: transparent;
+        outline: transparent;
+        border: none;
+        border-bottom: 1px solid $color-white-text;
+        color: $color-placeholder-text;
+        font-family: $Montserrat-Medium;
+        font-size: 1.6rem;
+        line-height: 2rem;
+        letter-spacing: 0.015em;
+        &::placeholder {
+            color: $color-placeholder-text;
+        }
+    }
+    &__btn {
+        @include button-reset;
+        font-family: $Montserrat-SemiBold;
+        font-size: 1.8rem;
+        line-height: 2.2rem;
+        width: 100%;
+        min-height: 5.3rem;
+        margin-top: 5rem;
+        padding: 0.7rem 1.5rem;
+        margin-bottom: 2.5rem;
+        border-radius: 0.3rem;
+        color: $color-white-text;
+        background-color: $color-orange;
+    }
+    &__checkbox {
+        display: flex;
+        align-items: center;
+        &-input {
+            margin-right: 1rem;
+        }
+        &-text {
+            font-size: 1.2rem;
+            line-height: 1.5rem;
+            letter-spacing: 0.015em;
+        }
+    }
+}
+/*reservation end */
+// footer start
+.footer {
+    padding: 10rem 0rem;
+    &-inner {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+.footer-documentation {
+    max-width: 23.5rem;
+    line-height: 130.4%;
+}
+.footer-confidentiality,
+.footer-agreement {
+    display: inline-block;
+    margin-top: 3rem;
+    color: $color-white-text;
+    text-decoration: none;
+}
+.footer-navigation {
+    &__list {
+        column-count: 2;
+        column-gap: 15rem;
+        &-item {
+            display: block;
+            margin-bottom: 4.8rem;
+        }
+        &-link {
+            line-height: 2rem;
+            color: $color-white-text;
+            text-decoration: none;
+        }
+    }
+}
+.footer-contacts {
+    max-width: 26rem;
+    text-align: center;
+    &__btn {
+        @include button-reset;
+        width: 26rem;
+        min-height: 5.4rem;
+        padding: 0.7rem 1.5rem;
+        color: $color-white-text;
+        font-family: $Montserrat-SemiBold;
+        font-size: 1.8rem;
+        line-height: 2.2rem;
+        border-radius: 0.3rem;
+        border: 1px solid $color-white-text;
+    }
+}
+.footer__phone-link {
+    display: inline-block;
+    margin-top: 3rem;
+    font-family: $Montserrat-SemiBold;
+    font-size: 2rem;
+    line-height: 2.4rem;
+    letter-spacing: 0.025em;
+    color: $color-white-text;
+    text-decoration: none;
+}
+// footer end

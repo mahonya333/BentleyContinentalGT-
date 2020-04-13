@@ -1,28 +1,375 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>BentleyContinentalGT-</title>
-  <link rel="stylesheet" href="css/style.min.css">
-</head>
-<body>
-  
-  <div class="site-wrapper">
-    <div class="site-content">
-      <header class="header" style="background-image: url('img/header-bg');">
-        <div class="container">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>BentleyContinentalGT-</title>
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+
+    <div class="site-wrapper">
+        <div class="site-content">
+            <header class="header bg-cover" style="background-image: url('img/header-bg.jpg');">
+                <div class="container">
+                    <div class="header-top">
+                        <div class="header-logo logo">
+                            <span>drive n dream</span>
+                            Аренда элитных авто
+                        </div>
+                        <nav class="header-navigation">
+                            <ul class="header-navigation__list">
+                                <li class="header-navigation__list-item">
+                                    <a class="header-navigation__list-link" href="#">Галерея</a>
+                                </li>
+                                <li class="header-navigation__list-item">
+                                    <a class="header-navigation__list-link" href="#">Характеристики</a>
+                                </li>
+                                <li class="header-navigation__list-item">
+                                    <a class="header-navigation__list-link" href="#">Условия аренды</a>
+                                </li>
+                                <li class="header-navigation__list-item">
+                                    <a class="header-navigation__list-link" href="#">Отзывы</a>
+                                </li>
+                                <li class="header-navigation__list-item">
+                                    <a class="header-navigation__list-link" href="#">Контакты</a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <div class="header-phone">
+                            <a class="header-phone__link" href="tel:74950000101">
+                                +7(495)000-01-01
+                                Заказать звонок
+                            </a>
+                        </div>
+                    </div>
+                    <div class="header-content">
+                        <h1 class="header-content__title">
+                            <span class="header-content__suptitle">Аренда</span>
+                            Bentley
+                            Continental GT
+                        </h1>
+                        <p class="header-price">
+                            от 29 990 ₽ в сутки
+                        </p>
+                        <div class="header-reservation">
+                            <button class="header-reservation__btn">
+                                Забронировать авто
+                            </button>
+                        </div>
+                        <div class="header-additionally">
+                            <div class="header-additionally__item">
+                                <div class="header-additionally__img">
+                                    <svg width="39" height="49" viewBox="0 0 39 49" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M38.2548 8.61811C38.2548 8.16026 37.9412 7.7697 37.5135 7.69473L35.6184 7.36122C30.0325 6.37896 24.6854 3.965 20.1549 0.379711C19.8395 0.12994 19.4056 0.12994 19.0902 0.379711C14.5596 3.965 9.21257 6.37896 3.62669 7.36122L1.73158 7.69473C1.30389 7.7697 0.990234 8.16026 0.990234 8.61811V15.7331C0.990234 25.4288 3.62426 34.644 10.1199 41.5542C14.6522 46.3751 19.1505 48.0091 19.3397 48.076C19.4312 48.1089 19.5269 48.125 19.6225 48.125C19.7178 48.125 19.8135 48.1085 19.9053 48.076C20.0946 48.0091 24.5929 46.3751 29.1248 41.5542C35.6218 34.6429 38.2548 25.427 38.2548 15.7331V8.61811ZM36.4803 15.7331C36.4803 25.8713 33.6026 34.0929 27.9273 40.1693C24.3135 44.0387 20.6505 45.7564 19.6225 46.1883C18.5932 45.7557 14.9308 44.0376 11.3177 40.1693C5.64242 34.0929 2.76474 25.8713 2.76474 15.7331V9.41094L3.91851 9.20835C9.56608 8.21512 14.9814 5.82785 19.6225 2.29084C24.2636 5.82785 29.6786 8.21512 35.3265 9.20835L36.4803 9.41094V15.7331Z"
+                                            fill="#FDFDFD" />
+                                        <path
+                                            d="M5.76669 21.2799C6.08971 21.1395 6.31672 20.8042 6.31672 20.414C6.31672 19.9514 5.99821 19.5666 5.58023 19.4917C5.53136 19.4825 5.48076 19.4778 5.42946 19.4778C4.93974 19.4778 4.54221 19.8972 4.54221 20.414C4.54221 20.9307 4.93974 21.3502 5.42946 21.3502C5.54938 21.3502 5.66271 21.3246 5.76669 21.2799Z"
+                                            fill="#FDFDFD" />
+                                        <path
+                                            d="M33.9913 10.8549C29.099 9.84776 24.2988 7.79328 20.11 4.91269C19.8154 4.71009 19.4352 4.71009 19.141 4.91269C14.9082 7.8251 10.2376 9.82436 5.25859 10.8553C4.84235 10.9412 4.54221 11.3263 4.54221 11.7739C4.54221 11.7739 4.54498 16.3835 4.55122 16.6888C4.56127 17.199 4.95637 17.6053 5.43812 17.6053C5.44436 17.6053 5.4506 17.6053 5.45684 17.6049C5.94691 17.5943 6.33577 17.1661 6.32537 16.6494C6.31948 16.3575 6.31671 12.5371 6.31671 12.5371C11.0642 11.4634 15.5355 9.53911 19.6258 6.80919C23.6809 9.51059 28.2561 11.4795 32.9343 12.5378V15.7329C32.9343 29.7647 26.3884 38.7341 19.6213 42.1435C14.0687 39.3383 8.91088 32.7345 7.09444 23.8653C6.99081 23.3599 6.51911 23.0392 6.03944 23.1481C5.56081 23.2571 5.25617 23.7556 5.35979 24.261C7.36582 34.055 13.239 41.2242 19.2633 44.0309C19.3777 44.0839 19.4997 44.1106 19.6217 44.1106C19.7451 44.1106 19.8684 44.0835 19.9835 44.0294C27.6575 40.4156 34.7088 30.5579 34.7088 15.7329V11.7739C34.7088 11.3255 34.4079 10.9405 33.9913 10.8549Z"
+                                            fill="#FDFDFD" />
+                                    </svg>
+                                </div>
+                                <div class="header-additionally__text">
+                                    каско включено
+                                </div>
+                            </div>
+                            <div class="header-additionally__item">
+                                <div class="header__additionally-img">
+                                    <svg width="43" height="43" viewBox="0 0 43 43" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M37.9609 9.40625C35.1773 9.40625 32.9219 11.661 32.9219 14.4453V16.125H26.8488C28.8726 12.6639 29.8984 10.0683 29.8984 8.39844C29.8984 3.76749 26.131 0 21.5 0C16.869 0 13.1016 3.76749 13.1016 8.39844C13.1016 10.0683 14.1274 12.6643 16.1512 16.125C15.4695 16.125 10.6677 16.125 10.0781 16.125V14.4453C10.0781 11.6666 7.81776 9.40625 5.03906 9.40625C2.25544 9.40625 0 11.661 0 14.4453V19.1484C0 19.6123 0.375961 19.9883 0.839844 19.9883C1.30373 19.9883 1.67969 19.6123 1.67969 19.1484V14.4453C1.67969 12.5898 3.1832 11.0859 5.03906 11.0859C6.89131 11.0859 8.39844 12.5931 8.39844 14.4453V34.2082C7.50643 33.4087 6.32835 32.9219 5.03906 32.9219C3.74944 32.9219 2.57202 33.4094 1.67969 34.2092V25.8672C1.67969 25.4033 1.30373 25.0273 0.839844 25.0273C0.375961 25.0273 0 25.4033 0 25.8672V37.9609C0 40.8423 2.48738 43 5.27855 43H37.9609C40.7396 43 43 40.7396 43 37.9609V14.4453C43 11.6666 40.7396 9.40625 37.9609 9.40625ZM34.6016 14.4453C34.6016 12.5898 36.1051 11.0859 37.9609 11.0859C39.8132 11.0859 41.3203 12.5931 41.3203 14.4453V34.1852C40.7429 33.6712 40.0478 33.2887 39.2896 33.0931C37.6063 32.6578 35.8745 33.0675 34.6016 34.2043C34.6016 33.4861 34.6016 15.4535 34.6016 14.4453ZM32.9219 26.2031H22.1719C19.3574 23.5232 13.9821 18.4034 13.3538 17.8047H17.1692C19.0028 20.7336 20.8088 23.1538 20.8275 23.179C20.9863 23.391 21.2353 23.5156 21.5 23.5156C21.7647 23.5156 22.0137 23.391 22.1725 23.179C22.1912 23.1538 23.9976 20.7336 25.8308 17.8047H32.9219V26.2031ZM21.5 1.67969C25.2048 1.67969 28.2188 4.69361 28.2188 8.39844C28.2188 11.5167 23.2998 18.7275 21.5 21.2471C19.672 18.6875 14.7812 11.4881 14.7812 8.39844C14.7812 4.69361 17.7952 1.67969 21.5 1.67969ZM1.67969 37.9609C1.67969 36.1087 3.18681 34.6016 5.03906 34.6016C6.89131 34.6016 8.39844 36.1087 8.39844 37.9609C8.39844 38.4248 8.7744 38.8008 9.23828 38.8008C9.70216 38.8008 10.0781 38.4248 10.0781 37.9609V23.9634L18.6025 32.082L8.90234 41.3203H5.27855C3.39513 41.3203 1.67969 39.9126 1.67969 37.9609ZM20.3993 32.6903C20.566 32.5315 20.6602 32.3117 20.6602 32.082C20.6602 31.8524 20.566 31.6323 20.3993 31.4738L10.0781 21.644V17.8047H10.918C10.9754 17.8595 20.8567 27.2703 21.2569 27.6512C21.4131 27.7998 21.6204 27.8828 21.8359 27.8828H32.9219V31.2422H26.5391C26.3163 31.2422 26.1027 31.3308 25.9453 31.4882L16.1129 41.3203H11.3379L20.3993 32.6903ZM37.9609 41.3203H18.4887L26.8871 32.9219H32.9219V37.9609C32.9219 38.4248 33.2978 38.8008 33.7617 38.8008C34.2256 38.8008 34.6016 38.4248 34.6016 37.9609C34.6016 35.7888 36.6356 34.1423 38.8697 34.7193C40.2334 35.0717 41.3203 36.3311 41.3203 37.9609C41.3203 39.8132 39.8132 41.3203 37.9609 41.3203Z"
+                                            fill="#FDFDFD" />
+                                        <path
+                                            d="M21.5 12.5977C23.8155 12.5977 25.6992 10.7139 25.6992 8.39844C25.6992 6.08296 23.8155 4.19922 21.5 4.19922C19.1845 4.19922 17.3008 6.08296 17.3008 8.39844C17.3008 10.7139 19.1845 12.5977 21.5 12.5977ZM21.5 5.87891C22.8894 5.87891 24.0195 7.00909 24.0195 8.39844C24.0195 9.78779 22.8894 10.918 21.5 10.918C20.1106 10.918 18.9805 9.78779 18.9805 8.39844C18.9805 7.00909 20.1106 5.87891 21.5 5.87891Z"
+                                            fill="#FDFDFD" />
+                                        <path
+                                            d="M0.839844 23.3477C1.3034 23.3477 1.67969 22.9714 1.67969 22.5078C1.67969 22.0443 1.3034 21.668 0.839844 21.668C0.376289 21.668 0 22.0443 0 22.5078C0 22.9714 0.376289 23.3477 0.839844 23.3477Z"
+                                            fill="#FDFDFD" />
+                                    </svg>
+                                </div>
+                                <div class="header-additionally__text">
+                                    доставим авто до места
+                                </div>
+                            </div>
+                            <div class="header-additionally__item">
+                                <div class="header-additionally__img">
+                                    <svg width="50" height="48" viewBox="0 0 50 48" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M47.4992 39.2499C42.5256 36.6124 38.7105 35.1335 35.3144 34.5665L35.6659 34.0833C35.8326 33.9166 35.9159 33.6666 35.8326 33.4166L35.0448 30.2655C37.0764 27.3501 38.2429 23.7116 38.1659 20.2499V15.2929C38.2224 15.2521 38.2781 15.2102 38.3326 15.1666C39.4159 14.2499 39.9993 12.9166 39.9993 11.5833C39.9993 5.3333 34.916 0.25 28.7493 0.25H21.3326C15.0826 0.25 9.9993 5.3333 9.9159 11.5C9.9159 12.9167 10.4992 14.1667 11.5826 15.0833C11.6098 15.1043 11.6383 15.1238 11.6659 15.1442V20.2499C11.6659 23.7224 12.8813 27.3729 14.9469 30.2928L14.1659 33.4165C14.1659 33.5832 14.1659 33.8332 14.3326 34.0832L14.6841 34.5664C11.288 35.1335 7.47284 36.6123 2.4993 39.2498C0.915906 39.9999 -0.000793457 41.5832 -0.000793457 43.3332V46.9165C-0.000793457 47.4165 0.332507 47.7498 0.832507 47.7498H49.1658C49.6658 47.7498 49.9991 47.4165 49.9991 46.9165V43.3332C49.9992 41.6666 48.9992 40.0832 47.4992 39.2499ZM33.7492 31.9166L34.0825 33.4166L33.2312 34.5855C33.1769 34.6299 33.1266 34.6837 33.0825 34.7499L28.4992 41.0832L26.2522 36.0068C28.6764 35.7152 30.8653 34.5919 32.686 32.9536C33.0516 32.6313 33.4067 32.2854 33.7492 31.9166ZM37.2492 13.8332C37.2273 13.8523 37.2045 13.8701 37.1821 13.8886C37.0885 13.9104 36.9975 13.9454 36.9159 13.9999C36.5554 14.2703 36.1704 14.4423 35.7744 14.5178C35.4603 14.5659 35.1408 14.5616 34.8326 14.4999C28.8557 13.365 22.8102 13.2606 17.0078 14.1864C16.3639 14.2795 15.722 14.3836 15.0826 14.4999C14.98 14.5113 14.8773 14.5176 14.7749 14.5196C14.105 14.5076 13.4557 14.3215 12.9159 13.9166C12.4159 13.5833 12.0826 13.0833 11.9159 12.5833L15.4992 11.9166C21.7492 10.7499 28.1659 10.7499 34.5825 11.9166L38.1379 12.578C37.9534 13.0498 37.6461 13.4859 37.2492 13.8332ZM21.2492 1.9166H28.6659C33.7775 1.9166 37.9698 5.89727 38.3097 10.9237L34.8326 10.3333C28.2493 9.1666 21.5826 9.1666 15.1659 10.3333L11.6889 10.9237C12.0284 5.89727 16.2175 1.9166 21.2492 1.9166ZM13.3325 15.9999C13.9992 16.1666 14.7492 16.2499 15.4992 16.0832C18.6106 15.5024 21.7633 15.2109 24.9367 15.2084C28.1105 15.2109 31.3049 15.5023 34.4992 16.0832C34.7268 16.1401 34.9153 16.1578 35.0918 16.1636C35.6164 16.2033 36.1646 16.1252 36.6658 15.9999V20.2499C36.6658 23.8836 35.4193 27.1126 33.5477 29.567L33.4991 29.5832C33.4158 29.6665 33.3324 29.7499 33.2491 29.8332C32.8299 30.3922 32.3874 30.9019 31.9251 31.3614C29.8559 33.2892 27.366 34.4165 24.9992 34.4165H24.9991C24.9125 34.4165 24.8261 34.4147 24.7396 34.412C23.3316 34.3636 21.8874 33.9226 20.5201 33.1584C19.1632 32.3789 17.8867 31.2551 16.7492 29.8331C16.6659 29.7498 16.5825 29.6664 16.4992 29.5831L16.4506 29.5669C14.5791 27.1124 13.3325 23.8834 13.3325 20.2498V15.9999ZM23.7462 36.0068L21.4992 41.0832L16.9159 34.7499C16.8893 34.7233 16.86 34.6971 16.8296 34.6712L15.9159 33.4165L16.2492 31.9165C16.3619 32.0379 16.4763 32.1562 16.5916 32.2726C18.5522 34.2781 20.9987 35.6765 23.7462 36.0068ZM48.3325 46.0832H29.1659H1.66591V43.3332C1.66591 42.2499 2.24921 41.2499 3.24921 40.7499C8.56102 37.928 12.3848 36.5117 15.791 36.0887L20.9992 43.2499C21.1301 43.4463 21.3132 43.5389 21.5469 43.5699C21.5863 43.5777 21.6261 43.5832 21.6658 43.5832C21.6658 43.5832 21.7491 43.5832 21.7491 43.6665C21.9991 43.6665 22.3324 43.4165 22.4158 43.1665L25.0038 37.3435L26.1064 39.7621L27.5825 43.0832C27.6658 43.3332 27.9158 43.5832 28.2492 43.5832H28.3325C28.5825 43.5832 28.8325 43.4165 28.9992 43.2499L34.2612 36.0146C37.6555 36.5268 41.5478 37.942 46.7492 40.6665C47.7492 41.2498 48.3325 42.2498 48.3325 43.3332V46.0832Z"
+                                            fill="#FDFDFD" />
+                                        <path
+                                            d="M23.3327 8.5833H26.666C27.166 8.5833 27.4993 8.25 27.4993 7.75V3.5833C27.4993 3.0833 27.166 2.75 26.666 2.75H23.3327C22.8327 2.75 22.4994 3.0833 22.4994 3.5833V7.75C22.4994 8.25 22.8327 8.5833 23.3327 8.5833ZM24.1661 4.4167H25.8328V6.9167H24.1661V4.4167Z"
+                                            fill="#FDFDFD" />
+                                    </svg>
+                                </div>
+                                <div class="header-additionally__text">
+                                    Персональный водитель
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <section class="info">
+                <div class="container">
+                    <div class="info-inner">
+                        <img class="info__img" src="img/interior.jpg" alt="интерьер">
+                        <div class="info-content">
+                            <h6 class="info-content__title">
+                                Bentley Continental GT –
+                            </h6>
+                            <p class="info-content__text">
+                                Роскошный полноприводный автомобиль, по праву
+                                считается настоящим произведением искусства.
+                            </p>
+                            <p class="info-content__text">
+                                Обтекаемые формы
+                                кузова, стильные колёсные
+                                дуги, броская решётка, радиатора,превосходно оформленный салон, мягкие, комфортные
+                                сидения.
+                            </p>
+
+                            <p class="info-content__text">
+                                Всё это приведёт в восторг Ваших друзей или деловых партнеров.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="characteristics">
+                <div class="container">
+                    <h2 class="characteristics__title">
+                        Технические характеристики
+                        <span class="characteristics__subtitle">Инновационная роскошь</span>
+                    </h2>
+                    <div class="characteristics-inner">
+                        <table class="characteristics-table">
+                            <tr class="characteristics-table__row">
+                                <td class="characteristics-table__column">Марка</td>
+                                <td class="characteristics-table__column">Bently</td>
+                            </tr>
+                            <tr class="characteristics-table__row">
+                                <td class="characteristics-table__column">Модель </td>
+                                <td class="characteristics-table__column">Continental</td>
+                            </tr>
+                            <tr class="characteristics-table__row">
+                                <td class="characteristics-table__column">Типтоплива</td>
+                                <td class="characteristics-table__column">Бензин</td>
+                            </tr>
+                            <tr class="characteristics-table__row">
+                                <td class="characteristics-table__column">Двигатель(СМЗ)</td>
+                                <td class="characteristics-table__column">5950</td>
+                            </tr>
+                            <tr class="characteristics-table__row">
+                                <td class="characteristics-table__column">Мощность (Л.С)</td>
+                                <td class="characteristics-table__column">635</td>
+                            </tr>
+                            <tr class="characteristics-table__row">
+                                <td class="characteristics-table__column">Крут.момент(НМ)</td>
+                                <td class="characteristics-table__column">900</td>
+                            </tr>
+                            <tr class="characteristics-table__row">
+                                <td class="characteristics-table__column">Макс.Скорость</td>
+                                <td class="characteristics-table__column">333</td>
+                            </tr>
+                            <tr class="characteristics-table__row">
+                                <td class="characteristics-table__column">0-100 КМ/Ч</td>
+                                <td class="characteristics-table__column">3,7</td>
+                            </tr>
+                        </table>
+                        <img class="characteristics__img" src="img/tehcnical-side.jpg" alt="технические характеристики">
+                    </div>
+                </div>
+            </section>
+            <section class="rent bg-cover" style="background-image: url(img/rent-bg.jpg);">
+                <div class="container">
+                    <h2 class="rent__title">
+                        Арендуйте свой Beantley за 10 мин
+                        <span class="rent__subtitle">Прокат авто можно оформить без залога</span>
+                    </h2>
+                    <div class="rent-items">
+                        <div class="rent-item">
+                            <div class="rent-item__img-wrapper">
+                                <img class="rent-item__img" src="img/rent-item1.jpg" alt="паспорт">
+                            </div>
+                            <div class="rent-item__content">
+                                <h6 class="rent-item__title">Паспорт</h6>
+                                <p class="rent-item__text">Гражданина РФ</p>
+                            </div>
+                        </div>
+                        <div class="rent-item">
+                            <div class="rent-item__img-wrapper">
+                                <img class="rent-item__img" src="img/rent-item2.jpg" alt="удостоверение">
+                            </div>
+                            <div class="rent-item__content">
+                                <h6 class="rent-item__title">Удостоверенние</h6>
+                                <p class="rent-item__text">Категория В</p>
+                            </div>
+                        </div>
+                        <div class="rent-item">
+                            <div class="rent-item__img-wrapper">
+                                <img class="rent-item__img" src="img/rent-item3.jpg" alt="Загран.паспорт, ИНН
+                                или военный билет">
+                            </div>
+                            <div class="rent-item__content">
+                                <h6 class="rent-item__title">Любой документ</h6>
+                                <p class="rent-item__text">Загран.паспорт, ИНН или военный билет</p>
+                            </div>
+                        </div>
+                        <div class="rent-item">
+                            <div class="rent-item__img-wrapper">
+                                <img class="rent-item__img" src="img/rent-item4.jpg" alt="Немного времени">
+                            </div>
+                            <div class="rent-item__content">
+                                <h6 class="rent-item__title">Немного времени</h6>
+                                <p class="rent-item__text">Через 10 минут авто
+                                    будет вашим</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="reservation">
+                <div class="container">
+                    <div class="reservation-inner">
+                        <div class="reservation__img-wrapper bg-cover">
+                            <img class="reservation__img" src="img/key-car.png" alt="ключи от машины">
+                        </div>
+                        <div class="reservation-content">
+                            <h2 class="reservation__title">
+                                Забронируйте
+                                прямо сейчас
+                                <span class="reservation__subtitle">Подача авто уже через 30 минут</span>
+                            </h2>
+                            <form class="reservation-form" method="post">
+                                <input class="reservation-form__input" type="text" placeholder="Имя">
+                                <input class="reservation-form__input" type="text" placeholder="Номер телефона ">
+                                <button class="reservation-form__btn">Забронировать Bentley</button>
+                                <label class="reservation-form__label reservation-form__checkbox">
+                                    <input class="reservation-form__checkbox-input" type="checkbox"><span
+                                        class="reservation-form__checkbox-text">Даю согласие на обработку данных</span>
+                                </label>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="reviews">
+                <div class="container">
+                    <h2 class="reviews__title">
+                        Отзывы наших постоянных клиентов
+                        <span class="reviews__subtitle">6 из 10 клиентов становятся постоянными</span>
+                    </h2>
+                    <div class="reviews-slider">
+                        <div class="reviews-slider__item">
+                            <div class="reviews-slider__item-inner">
+                                <img class="reviews-slider__item-img" src="img/reviews-slider-item1.jpg"
+                                    alt="фото покупателя">
+                                <div class="reviews-slider__info">
+                                    <p class="reviews-slider__info-name">Дмитрий </p>
+                                    <p class="reviews-slider__info-text">г. Москва</p>
+                                    <p class="reviews-slider__info-text">
+                                        Замечательная компания, помогла сдеать романтическое свидание.
+                                    </p>
+                                    <p class="reviews-slider__info-text">
+                                        Арендованное авто просто
+                                        поразило своей красотой.
+                                    </p>
+                                    <p class="reviews-slider__info-text">
+                                        Сюрприз получился.
+                                        Спасибо.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="reviews-slider__item">
+                            <div class="reviews-slider__item-inner">
+                                <img class="reviews-slider__item-img" src="img/reviews-slider-item1.jpg"
+                                    alt="фото покупателя">
+                                <div class="reviews-slider__info">
+                                    <p class="reviews-slider__info-name">Дмитрий </p>
+                                    <p class="reviews-slider__info-text">г. Москва</p>
+                                    <p class="reviews-slider__info-text">
+                                        Замечательная компания, помогла сдеать романтическое свидание.
+                                    </p>
+                                    <p class="reviews-slider__info-text">
+                                        Арендованное авто просто
+                                        поразило своей красотой.
+                                    </p>
+                                    <p class="reviews-slider__info-text">
+                                        Сюрприз получился.
+                                        Спасибо.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <span class="reviews__count-slides">
+                        <span class="reviews__current-slide" id="reviews__current-slide">1</span> /
+                        <span class="reviews__total-slides" id="reviews__total-slides">8</span>
+                    </span>
+                </div>
+            </section>
         </div>
-      </header>
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-inner">
+                    <div class="footer-documentation">
+                        <div class="footer-logo logo">
+                            <span>drive n dream</span>
+                            Аренда элитных авто
+                        </div>
+                        <a class="footer-confidentiality" href="#">
+                            Политика
+                            конфедициальнности
+                        </a>
+                        <a class="footer-agreement" href="#">
+                            Солгашение на обработку персональных данных
+                        </a>
+                    </div>
+                    <nav class="footer-navigation">
+                        <ul class="footer-navigation__list">
+                            <li class="footer-navigation__list-item">
+                                <a class="footer-navigation__list-link" href="#">Условия аренды</a>
+                            </li>
+                            <li class="footer-navigation__list-item">
+                                <a class="footer-navigation__list-link" href="#">Галерея</a>
+                            </li>
+                            <li class="footer-navigation__list-item">
+                                <a class="footer-navigation__list-link" href="#">Характеристики</a>
+                            </li>
+                            <li class="footer-navigation__list-item">
+                                <a class="footer-navigation__list-link" href="#">Отзывы</a>
+                            </li>
+                            <li class="footer-navigation__list-item">
+                                <a class="footer-navigation__list-link" href="#">Контакты</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="footer-contacts">
+                        <button class="footer-contacts__btn">
+                            Закзать звонок
+                        </button>
+                        <a class="footer__phone-link" href="tel:74950000101">
+                            +7 (495) 000-01-01
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </footer>
     </div>
-    <footer>
-      
-    </footer>
-  </div>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script src="js/libs.min.js"></script>
-  <script src="js/main.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/libs.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
+
 </html>
